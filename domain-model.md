@@ -11,9 +11,9 @@
 | total               |
 | basket              |
 
-| Methods                                 | Input                  | Scenario                    | Outputs |
-| --------------------------------------- | ---------------------- | --------------------------- | ------- |
-| getTotalCostOfItemsInBasket(itemObject) | itemObject(@Array[{}]) | item price \* item quantity | Number  |
+| Methods              | Input             | Scenario                    | Outputs |
+| -------------------- | ----------------- | --------------------------- | ------- |
+| getTotalCost(basket) | items(@Array[{}]) | item price \* item quantity | Number  |
 
 | Nouns      | Verbs           |
 | ---------- | --------------- |
