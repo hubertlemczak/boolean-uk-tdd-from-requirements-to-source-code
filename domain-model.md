@@ -2,6 +2,8 @@
 
 ## Nouns & Verbs
 
-| supermarket shopper| pay
-| items |
-| cost |
+| Nouns               | Verbs |
+| ------------------- | ----- |
+| supermarket shopper | pay   |
+| items               |
+| cost                |
