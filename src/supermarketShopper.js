@@ -12,13 +12,13 @@ function reset() {
 
 const addToBasket = (newItem, quantity) => {
   for (let i = 0; i < shopItems.length; i++) {
-    if (shopItems[i].item.includes(newItem)) basket.push([newItem, shopItems[i].price, quantity]);
+    if (shopItems[i].item.includes(newItem)) basket.push([shopItems[i].price, quantity]);
   }
 };
 
 const getTotalCost = () => {
   let totalCost = 0;
-  for (let i = 0; i < basket.length; i++) totalCost += basket[i][1] * basket[i][2];
+  for (let i = 0; i < basket.length; i++) totalCost += basket[i][0] * basket[i][1];
   return totalCost;
 };
 
