@@ -12,7 +12,10 @@ function reset() {
 
 const addToBasket = (newItem, quantity) => {
   for (let i = 0; i < shopItems.length; i++) {
-    if (shopItems[i].item.includes(newItem)) basket.push([shopItems[i].price, quantity]);
+    if (shopItems[i].item === newItem) {
+      basket.push([shopItems[i].price, quantity]);
+      break;
+    }
   }
 };
 
